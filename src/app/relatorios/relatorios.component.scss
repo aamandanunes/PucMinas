@@ -1,0 +1,11 @@
+.grid{
+  display: grid;
+  grid-template-columns: 4fr 1fr 1fr 140px;
+  column-gap: 20px;
+  width: 60%;
+  padding-left: 50px;
+}
+
+.example-full-widths{
+  width: 95%;
+}

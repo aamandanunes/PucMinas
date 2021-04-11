@@ -1,0 +1,51 @@
+
+
+.formLayout{
+    padding-left: 16px;
+    padding-bottom: 16px;
+}
+
+.input-grid{
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr ;
+  column-gap: 20px;
+}
+.filter{
+  width: 100%;
+  margin: 0 20px;
+}
+
+.btn-primary{
+    background-color: #673ab7;;
+    color: #fff;
+    height: 40px;
+    max-width: 270px;}
+
+table{
+  width: 100%}
+
+.table-item-title{
+  font-weight: bolder}
+
+.table-item-subtitle{
+  font-weight: bolder;
+  font-size: smaller;
+  color: gray;}
+
+.tableFontHeader{
+  font-weight: bolder;
+}
+.tableAlignHeader{
+  text-align: center;
+  justify-content: center;}
+
+.tableAlignCell {
+  text-align: center;
+  justify-content: center;
+}
+
+.tableColorCell{
+  color: gray;}
+
+.mat-row{
+  height: 70px;}

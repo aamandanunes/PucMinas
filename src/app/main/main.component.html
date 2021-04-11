@@ -1,0 +1,30 @@
+<div class="main-bg">
+  <div
+    class="main-wrapper main-content"
+    fxLayout="row"
+    fxLayoutAlign="center center"
+  >
+    <mat-card class="box">
+      <mat-card-header>
+        <mat-card-title style="color: #673ab7">Dashboard</mat-card-title>
+      </mat-card-header>
+
+      <div class='indicators-grid'>
+        <div class="indicators" [routerLink]="['/profissionais']">
+          <div><span class="material-icons"> hail </span></div>
+          <div>Profissionais de Saúdes</div>
+        </div>
+
+        <div class="indicators" [routerLink]="['/unidades']">
+          <div><span class="material-icons"> emergency </span></div>
+          <div>Unidades de Saúdes</div>
+        </div>
+
+        <div class="indicators" [routerLink]="['/relatorios']">
+          <div><span class="material-icons"> file_copy </span></div>
+          <div>Relatório de Tratamentos e Consultas Recomendados</div>
+        </div>
+      </div>
+    </mat-card>
+  </div>
+</div>
