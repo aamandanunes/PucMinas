@@ -11,5 +11,5 @@ Outras: Rodas no terminal `npm install`
 rodar no terminal `ng serve`, navegar na url `http://localhost:4200/`.
 
 
-![Html]https://img.shields.io/badge/logo-javascript-blue?logo=javascript
+![Html](https://img.shields.io/badge/logo-javascript-blue?logo=javascript)
 
